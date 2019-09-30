@@ -1,6 +1,6 @@
 ## MariaDB 10 server on Alpine
 
-[![Docker Hub; nimmis/alpine-mariadb](https://images.microbadger.com/badges/image/nimmis/alpine-mariadb.svg)](https://registry.hub.docker.com/u/nimmis/alpine-mariadb)
+[![Docker Hub; gawindx/alpine-mariadb](https://img.shields.io/static/v1?label=46.99_MB&message=19_layers&color=blue)](https://hub.docker.com/r/gawindx/alpine-mariabd)
 
 ## What is MariaDB?
 
@@ -14,11 +14,11 @@ Container based on **nimmis/alpine-micro** [![Docker Hub; nimmis/alpine-micro](h
 
 To run the lastest stable version of this docker image run
 
-	docker run -d -e MARIADB_RANDOM_ROOT_PASSWORD=yes nimmis/alpine-mariadb
+	docker run -d -e MARIADB_RANDOM_ROOT_PASSWORD=yes gawindx/alpine-mariadb
 
 to expose the database to the external interface run
 
-	docker run -d -p 3306:3306 e MARIADB_RANDOM_ROOT_PASSWORD=yes nimmis/alpine-mariadb
+	docker run -d -p 3306:3306 e MARIADB_RANDOM_ROOT_PASSWORD=yes gawindx/alpine-mariadb
 
 ## Environment variables used in the container
 

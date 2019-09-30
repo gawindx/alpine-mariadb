@@ -1,6 +1,7 @@
 FROM nimmis/alpine-micro:3.8
 
-MAINTAINER nimmis <kjell.havneskold@gmail.com>
+#MAINTAINER nimmis <kjell.havneskold@gmail.com>
+MAINTAINER Gawindx <decauxnico@gmail.com>
 
 ARG IMAGE_NAME
 ARG DOCKER_REPO
@@ -8,13 +9,14 @@ ARG BUILD_DATE
 ARG VCS_REF
 
 # fix labels
-LABEL maintainer="nimmis <kjell.havneskold@gmail.com>" \
+#LABEL maintainer="nimmis <kjell.havneskold@gmail.com>" \
+LABEL maintainer="Gawindx <decauxnico@gmail.com>" \
       org.label-schema.docker.dockerfile="/Dockerfile" \
       org.label-schema.name="MariaDB database" \
-      org.label-schema.url="https://www.nimmis.nu" \
+#      org.label-schema.url="https://www.nimmis.nu" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/nimmis/docker-alpine-mariadb.git"
+      org.label-schema.vcs-url="https://github.com/gawindx/alpine-mariadb.git"
 
 COPY root/. /
 

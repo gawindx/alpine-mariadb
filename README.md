@@ -1,6 +1,6 @@
 ## MariaDB 10 server on Alpine
 
-[![Docker Hub; gawindx/alpine-mariadb](https://img.shields.io/static/v1?label=46.99_MB&message=19_layers&color=blue)](https://hub.docker.com/r/gawindx/alpine-mariabd)
+[![Docker Hub; gawindx/alpine-mariadb](https://img.shields.io/static/v1?label=46.99 MB&message=19 layers&color=blue)](https://hub.docker.com/r/gawindx/alpine-mariabd)
 
 ## What is MariaDB?
 
